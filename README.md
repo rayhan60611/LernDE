@@ -63,16 +63,56 @@
 
 ## All Screens Showcase
 
-| Screen | Route / Component | Highlights | Screenshot |
-| :--- | :--- | :--- | :--- |
-| **Startup & Onboarding** | `StartupOnboardingGate` (`src/components/onboarding/StartupOnboardingGate.tsx`) | Branded splash logo + first-launch profile setup (photo, name, age, gender, language) | ![Startup & Onboarding](./docs/screenshots/01-onboarding.png) |
-| **Learn** | `app/(tabs)/index.tsx` | Daily Aim 3D ring, Streak badge, 3-Section Progress Overview, Daily Reminder & animated **Word of the Day** card, interactive CEFR Lesson Units (Listening, Article Match, Sentence Builder, Speaking) | ![Learn Screen](./docs/screenshots/02-learn.png) |
-| **Grammar** | `app/(tabs)/grammar.tsx` | **71 grammar topics** (A1–B2), level filters, search bar, collapsible 3D glass cards with formulas, Bangla parallel notes, examples, and 5-question mini-quizzes with retry queue | ![Grammar Screen](./docs/screenshots/03-grammar.png) |
-| **Vocabulary** | `app/(tabs)/vocabulary.tsx` | **8,903 words** (`2,432` A1, `1,659` A2, `2,375` B1, `2,437` B2), **All Vocabulary** tab, Chapter/Day/Topic/★ Starred filters, 3D Material Glass flip flashcards with word watermarks, SRS ratings (`Again/Hard/Good/Easy`), and Swipe Play game | ![Vocabulary Screen](./docs/screenshots/04-vocabulary.png) |
-| **Read & Play** | `app/(tabs)/read.tsx` | **156 reading passages** (A1–B2), full-story narration (`1.0x`/`0.7x`), live spoken-word highlighting, dynamic translation toggle, and tap-any-word **Word Inspector Modal** synced with Favorites | ![Read & Play Screen](./docs/screenshots/05-read-and-play.png) |
-| **Practice Hub** | `app/(tabs)/practice.tsx` (`src/practice/PracticePage.tsx`) | Streak, total XP, Weak Areas summary, and 5 adaptive practice modes with question-by-question answer details & "Open lesson" links | ![Practice Hub](./docs/screenshots/06-practice-hub.png) |
-| **Practice Modes** | `src/practice/modes/*` | Quick Practice, Timed Seeded Exams, Game Mode (3 lives + Speed Round), Mistake Review, and 5-Box Leitner Review Due | ![Practice Modes](./docs/screenshots/07-practice-modes.png) |
-| **Profile & Settings** | `app/(tabs)/profile.tsx` | Editable user details & avatar, XP/Speaking/Streak stats, 14-day Streak calendar, Language dropdown, 4 Themes, Sound & Vibration toggles, TTS Voice & Speed settings, About the Developer | ![Profile Screen](./docs/screenshots/08-profile.png) |
+<table>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/01-onboarding.png" alt="Startup & Onboarding" width="320" /><br />
+      <strong>1. Startup & First-Time Onboarding</strong><br />
+      <sub><code>StartupOnboardingGate</code> — Branded flash screen + first-launch profile setup (photo, name, age, gender, language)</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/02-learn.png" alt="Learn Screen" width="320" /><br />
+      <strong>2. Learn Tab</strong><br />
+      <sub><code>app/(tabs)/index.tsx</code> — Daily Aim 3D ring, Streak badge, Progress Overview, Word of the Day & interactive CEFR Lesson Units</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/03-grammar.png" alt="Grammar Screen" width="320" /><br />
+      <strong>3. Grammar Tab</strong><br />
+      <sub><code>app/(tabs)/grammar.tsx</code> — 71 A1–B2 grammar topics, formulas, Bangla parallel notes, examples & 5-question mini-quizzes</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/04-vocabulary.png" alt="Vocabulary Screen" width="320" /><br />
+      <strong>4. Vocabulary Tab</strong><br />
+      <sub><code>app/(tabs)/vocabulary.tsx</code> — 8,903 words, All Vocabulary tab, 3D Material Glass flip flashcards with word watermarks, SRS & Swipe Play</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/05-read-and-play.png" alt="Read & Play Screen" width="320" /><br />
+      <strong>5. Read & Play Tab</strong><br />
+      <sub><code>app/(tabs)/read.tsx</code> — 156 A1–B2 stories, full-story narration (1.0x/0.7x), live spoken-word highlight & Word Inspector modal</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/06-practice-hub.png" alt="Practice Hub" width="320" /><br />
+      <strong>6. Practice Hub</strong><br />
+      <sub><code>app/(tabs)/practice.tsx</code> — Streak, total XP, Weak Areas summary & 5 adaptive practice modes</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/07-practice-modes.png" alt="Practice Modes" width="320" /><br />
+      <strong>7. Practice Modes & Answer Details</strong><br />
+      <sub><code>src/practice/modes/*</code> — Quick Practice, Timed Seeded Exams, Game Mode (3 lives + Speed Round), Mistake Review & Leitner Review Due</sub>
+    </td>
+    <td align="center" width="50%" valign="top">
+      <img src="./docs/screenshots/08-profile.png" alt="Profile & Settings" width="320" /><br />
+      <strong>8. Profile & Settings</strong><br />
+      <sub><code>app/(tabs)/profile.tsx</code> — Editable user details & avatar, 14-day Streak calendar, Language, 4 Themes, Sound & Vibration toggles</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 

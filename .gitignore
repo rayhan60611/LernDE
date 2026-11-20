@@ -20,7 +20,7 @@ LernDE.apk
 *.key
 *.mobileprovision
 
-# Vocabulary & Grammar Data Files
+# Vocabulary, Grammar & Lesson/Passage Data Files
 *.csv
 a1.csv
 a2.csv
@@ -30,6 +30,8 @@ vocabulary.csv
 src/data/csvVocabularyData.ts
 src/data/vocabulary.ts
 src/data/grammar.ts
+src/data/lessons.ts
+src/data/passages.ts
 src/practice/data/practiceGrammar.ts
 
 # OS & Logs
