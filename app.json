@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "LernDE",
+    "owner": "rayhan60611s-team",
+    "slug": "lernde",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "lernde",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B6B4F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/ios-icon.png",
+      "bundleIdentifier": "com.rayhan.deutschbridge",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Allow LernDE to access your microphone for interactive German voice speaking practice.",
+        "NSSpeechRecognitionUsageDescription": "Allow LernDE to recognize your spoken German and provide real-time pronunciation feedback."
+      }
+    },
+    "android": {
+      "package": "com.rayhan.deutschbridge",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B6B4F"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow LernDE to access your microphone for interactive German voice speaking practice.",
+          "speechRecognitionPermission": "Allow LernDE to recognize your spoken German and provide real-time pronunciation feedback.",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "830fb1dc-53bf-488d-9821-a7d6fde373c1"
+      }
+    }
+  }
+}
